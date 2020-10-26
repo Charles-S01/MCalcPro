@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MCalcPro</string>
+    <string name="pBoxHint">Cash Price</string>
+    <string name="aBoxHint">Amortization</string>
+    <string name="iBoxHint">Interest (%)</string>
+    <string name="buttonText">ANALYZE</string>
+</resources>
