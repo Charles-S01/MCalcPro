@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
         this.tts = new TextToSpeech(this, this);
 
-//        SensorManager sm = (SensorManager) getSystemService(SENSOR_SERVICE);
-//        sm.registerListener(this, sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_NORMAL);
+        SensorManager sm = (SensorManager) getSystemService(SENSOR_SERVICE);
+        sm.registerListener(this, sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_NORMAL);
 
     }
 
